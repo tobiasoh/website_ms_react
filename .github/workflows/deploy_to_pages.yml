@@ -1,8 +1,10 @@
-name: Build and Deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
+
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -14,7 +16,7 @@ jobs:
           node-version: '20'
       - run: npm install
       - run: npm run build
-      - uses: tobiasoh/github-pages-deploy-action@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
-          folder: .
+          branch: gh-pages
+          folder: build
