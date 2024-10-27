@@ -41,3 +41,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Install npm
+        - run: npm install
+      - name: build npm
+        - run: npm run build
+      - name: run npm
+        - run: npm run
+      
