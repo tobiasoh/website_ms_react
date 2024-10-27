@@ -1,0 +1,14 @@
+.tour-info p {
+    color: white;
+    text-align: center;
+    font-family: HelveticaNeue, Arial, sans-serif;
+}
+
+.tour-info {
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}

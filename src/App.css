@@ -1,0 +1,61 @@
+body {
+  margin: 0; /* Remove default margin */
+  font-family: HelveticaNeue, Arial, sans-serif;
+}
+
+.page-home {
+  background-image: url('../public/backgrounds/lilla_bakgrunn_kanskje.jpg');
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-tour {
+  background-image: url('../public/backgrounds/svart_bakgrunn_v2.jpg');
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.page-music {
+  background-image: url('../public/backgrounds/hvit_bakgrunn.jpg');
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.page-contact {
+  background-image: url('../public/backgrounds/hvit_bakgrunn.jpg');
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.page-subscribe {
+  background-image: url('../public/backgrounds/hvit_bakgrunn.jpg');
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*
+body.home,
+body.music,
+body.contact,
+body.tour,
+body.subscribe {
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}*/
+

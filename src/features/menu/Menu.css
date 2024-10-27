@@ -1,0 +1,16 @@
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Make the nav a flex container */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center items */
+    z-index: 2;
+    padding: 0 0;
+    margin: 0 0;
+    position: fixed;
+  }
+
+  .navbar:first-child {
+    margin-left: 0;
+  }

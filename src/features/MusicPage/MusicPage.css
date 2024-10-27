@@ -1,0 +1,39 @@
+
+  
+  .album-cover {
+    margin: 2vh;
+    width: 100%;
+  }
+  .music-covers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .image-link {
+    width: 60%;
+    align-items: center;
+  }
+
+  .music-page {
+    margin-top: 4vh;
+  }
+
+  
+  .music-videos {
+    width: 60%;
+    align-items: center;
+
+  }
+
+  .youtube-vid {
+    width: 100%;
+    height: auto;
+    margin: 2vh;
+    align-items: center;
+  }
+
+  iframe {
+    width: 100%; /* Make the iframe fill its container */
+    aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+  }
